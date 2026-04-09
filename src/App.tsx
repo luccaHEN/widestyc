@@ -97,11 +97,36 @@ function App() {
       </main>
       </div>
 
-      <img 
-        src="/sumiugemeos.png" 
-        alt="Sumiu Gêmeos" 
-        className="w-40 md:w-60 lg:w-72 xl:w-80 md:absolute md:top-1/2 md:-translate-y-1/2 md:left-2 lg:left-8 xl:left-16 object-contain opacity-90 hover:opacity-100 hover:scale-105 transition-all duration-300 drop-shadow-2xl mt-8 md:mt-0 z-0" 
-      />
+      {/* Imagens das laterais (Streamers) */}
+      <div className="flex flex-row items-center justify-center gap-6 mt-8 md:mt-0 md:contents">
+        <a 
+          href="https://twitch.tv/osumiu"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Twitch - osumiu"
+          className="md:absolute md:top-1/2 md:-translate-y-1/2 md:left-4 lg:left-8 xl:left-16 block z-0"
+        >
+          <img 
+            src="/sumiugemeos.png" 
+            alt="Sumiu Gêmeos" 
+            className="h-24 sm:h-32 md:h-36 lg:h-48 xl:h-56 w-auto object-contain opacity-90 hover:opacity-100 scale-x-[1.2] hover:scale-x-[1.32] hover:scale-y-110 hover:-translate-y-2 transition-all duration-300 drop-shadow-2xl cursor-pointer" 
+          />
+        </a>
+
+        <a 
+          href="https://twitch.tv/lanyyy_sz"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Twitch - lanyyy_sz"
+          className="md:absolute md:top-1/2 md:-translate-y-1/2 md:right-0 lg:right-4 xl:right-12 block z-0"
+        >
+          <img 
+            src="/lanyengualsinho.png" 
+            alt="Lany Engualsinho" 
+            className="h-24 sm:h-32 md:h-36 lg:h-48 xl:h-56 w-auto object-contain opacity-90 hover:opacity-100 hover:scale-120 hover:-translate-y-2 transition-all duration-300 drop-shadow-2xl cursor-pointer" 
+          />
+        </a>
+      </div>
     </div>
   );
 }
