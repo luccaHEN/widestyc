@@ -55,7 +55,7 @@ export const useGifProcessor = () => {
           width: targetW,
           height: targetH,
           workerScript: '/gif.worker.js',
-          transparent: CHROMA_KEY_NUM
+          transparent: CHROMA_KEY_NUM as any // Bypass TS: a tipagem do gif.js está errada (ele pede string, mas exige número)
         });
 
         // 3. Processa e estica cada quadro (frame)
