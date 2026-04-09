@@ -11,7 +11,7 @@ export const DownloadButton: React.FC<Props> = ({ resultUrl, originalName }) => 
   const handleDownload = () => {
     const a = document.createElement('a');
     a.href = resultUrl;
-    a.download = `LARGO_${originalName}`;
+    a.download = `WIDE_${originalName}`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
