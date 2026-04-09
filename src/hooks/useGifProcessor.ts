@@ -54,6 +54,7 @@ export const useGifProcessor = () => {
           width: targetW,
           height: targetH,
           workerScript: '/gif.worker.js',
+          transparent: '#000000', // Avisa o encoder que o preto puro deve ser o fundo transparente
         });
 
         // 3. Processa e estica cada quadro (frame)

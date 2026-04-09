@@ -49,8 +49,9 @@ function App() {
   }, [file, stretchFactor, speedFactor, triggerProcessing]);
 
   return (
-    <div className="container mx-auto max-w-3xl px-4 py-12">
-      <header className="text-center mb-10">
+    <div className="min-h-screen flex flex-col items-center justify-center p-4 relative overflow-x-hidden">
+      <div className="w-full max-w-3xl py-12 z-10 relative">
+        <header className="text-center mb-10">
         <h1 
           onClick={() => { setFile(null); setResultUrl(null); setSpeedFactor(1); setStretchFactor(2); }}
           className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-twitch to-blue-500 mb-2 cursor-pointer hover:opacity-80 transition-opacity inline-block"
@@ -94,6 +95,13 @@ function App() {
           </div>
         )}
       </main>
+      </div>
+
+      <img 
+        src="/sumiugemeos.png" 
+        alt="Sumiu Gêmeos" 
+        className="w-40 md:w-60 lg:w-72 xl:w-80 md:absolute md:top-1/2 md:-translate-y-1/2 md:left-2 lg:left-8 xl:left-16 object-contain opacity-90 hover:opacity-100 hover:scale-105 transition-all duration-300 drop-shadow-2xl mt-8 md:mt-0 z-0" 
+      />
     </div>
   );
 }
