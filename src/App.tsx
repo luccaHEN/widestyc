@@ -123,7 +123,7 @@ function App() {
           <img 
             src="/lanyengualsinho.png" 
             alt="Lany Engualsinho" 
-            className="h-24 sm:h-32 md:h-36 lg:h-48 xl:h-56 w-auto object-contain opacity-90 hover:opacity-100 hover:scale-120 hover:-translate-y-2 transition-all duration-300 drop-shadow-2xl cursor-pointer" 
+            className="h-24 sm:h-32 md:h-36 lg:h-48 xl:h-56 w-auto object-contain opacity-90 hover:opacity-100 hover:scale-110 hover:-translate-y-2 transition-all duration-300 drop-shadow-2xl cursor-pointer" 
           />
         </a>
       </div>
