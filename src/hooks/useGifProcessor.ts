@@ -46,7 +46,6 @@ export const useGifProcessor = () => {
         targetW = Math.floor(targetW);
         targetH = Math.floor(targetH);
 
-        const CHROMA_KEY_NUM = 0x000000; // Preto como chroma key para que o otimizador crie bordas perfeitamente limpas
 
         // 2. Inicializa o Encoder de GIF (Requer gif.worker.js na pasta public)
         const gif = new GIF({
