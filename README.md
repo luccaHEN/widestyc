@@ -51,4 +51,8 @@ Isso criará uma pasta `dist` contendo todos os arquivos estáticos necessários
 ## 🔒 Segurança
 
 Como a aplicação é uma *Single Page Application* estática, ela não possui um back-end ativo recebendo arquivos. 
+<<<<<<< HEAD
 O sistema lida com o tamanho de buffers e limita a quantidade máxima de quadros de um GIF (1000 frames) para evitar travamentos locais (Out of Memory) no navegador do usuário, protegendo computadores mais modestos de Denial of Service local na aba.
+=======
+O sistema lida com o tamanho de buffers e limita a quantidade máxima de quadros de um GIF (1000 frames) para evitar travamentos locais (Out of Memory) no navegador do usuário, protegendo computadores mais modestos de Denial of Service local na aba.
+>>>>>>> a3307877165576386f66d682f59aa8764083ecc6
