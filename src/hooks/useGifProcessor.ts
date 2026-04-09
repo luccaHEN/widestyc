@@ -55,7 +55,7 @@ export const useGifProcessor = () => {
           width: targetW,
           height: targetH,
           workerScript: '/gif.worker.js',
-          transparent: 'CHROMA_KEY_NUM'
+          transparent: CHROMA_KEY_NUM
         });
 
         // 3. Processa e estica cada quadro (frame)
